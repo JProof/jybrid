@@ -17,13 +17,16 @@ acceptance-test
 * js-defer
 * js-min-full-switch
 
+
 ### Ajax Html 
 
 |type|command| initial page load | ajax request| ajax response | short description | reference pages |
 |---|---|---|---|---|---|---|
 | ajax response |`$objResponse->html($element,'Text or Html-Tags');`|-| - | x |Inserts Text/Html into the given html-tag-id|<https://jybrid.com/ajax-response/html-append-and-prepend>|
+| ajax response |`$objResponse->remove($element);`|-| - | x |Removes the Element if it exists |<https://jybrid.com/ajax-response/html#ajax-remove-element> <https://demo.jybrid.com/schematic-ajax-html.php>|
 | ajax response |`$objResponse->prependHtml($parentElement, 'Text or Html-Tags');`|-| - | x |Inserts Text/Html at first position in parentElement|<https://jybrid.com/ajax-response/html-append-and-prepend>|
 | ajax response |`$objResponse->appendHtml($parentElement, 'Text or Html-Tags');`|-| - | x |Inserts Text/Html at last position in parentElement|<https://jybrid.com/ajax-response/html-append-and-prepend>|
+
 
 
 ### Ajax html css classname handling
@@ -103,3 +106,11 @@ add / remove css resource in/from browser.
 |---|---|---|---|---|---|---|
 | ajax response |`$objResponse->includeCSS('assets/test-css/test1.css')`|-| - | x |adding an css-file into the browser head ||
 | ajax response |`$objResponse->removeCSS('assets/test-css/test1.css');`|-| - | x |remove an css-file from browser||
+
+### Ajax Javascript 
+
+|type|command| initial page load | ajax request| ajax response | short description | reference pages |
+|---|---|---|---|---|---|---|
+| ajax response |`$objResponse->confirmCommands($cntNextCommands,'Do you want to apply next $cntNextCommands?');`|-| - | x |Javascript confirm command that asks the user apply(or not) the next followed response-commands in ajax-response|<https://jybrid.com/ajax-response/simple-js-commands#ajax-response-confirm-commands>|
+| ajax response |`$objResponse->redirect($url,$waitSecondsBeforeRedirect);`|-| - | x |Ajax redirect the Page to an other Url |<https://jybrid.com/ajax-response/simple-js-commands#ajax-redirect>|
+| ajax response |`$objResponse->openNewWindow($url,$target,$focus);`|-| - | x | Opens an new Window or Tab|<https://jybrid.com/ajax-response/simple-js-commands#ajax-open-new-window-or-tab>|
