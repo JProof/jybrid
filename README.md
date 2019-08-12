@@ -4,7 +4,8 @@ jybrid examples under https://github.com/JProof/jybrid-examples
 
 https://jybrid.com 
 
-current Version 0.7.9.2
+current Version 0.7.9.3.1 released (fixing)
+0.7.9.3 Unobtrusive Ajax (released)
 
 javascript testings:
 
