@@ -18,18 +18,19 @@ acceptance-test
 * js-defer
 * js-min-full-switch
 
+
 ### Ajax Response Html Commands 
 
 [Documentation Page](https://jybrid.com/docs/ajax-response/ajax-html?target=_blank)
 
 |command| short description | reference pages |
 |---|---|---|
-|`$objResponse->html($element,'Text or Html-Tags');`|Inserts Text/Html into the given html element|[Ajax insert Html](https://demo.jybrid.com/ajax-html.php?target_blank)|
-|`$objResponse->html($element);`|Clear/Empty with Ajax Html Element|[Ajax clear/empty Html](https://demo.jybrid.com/ajax-html.php?target_blank)|
-|`$objResponse->remove($element);`|Removes the Element if it exists |[Ajax remove Element](https://demo.jybrid.com/ajax-html.php?target_blank)|
-|`$objResponse->removeAll($elements);`|Remove all Elements with given querySelector |[Ajax remove all Elements](https://demo.jybrid.com/ajax-html.php?target_blank)|
-|`$objResponse->prependHtml($parentElement, 'Text or Html-Tag');`|Inserts Text/Html at first position in parentElement||
-|`$objResponse->appendHtml($parentElement, 'Text or Html-Tag');`|Inserts Text/Html at last position in parentElement||
+|`$objResponse->html($element,'Text or Html-Tags');`|Inserts Text/Html into the given html element|[Ajax insert Html](https://demo.jybrid.com/ajax-html.php?target=_blank)|
+|`$objResponse->html($element);`|Clear/Empty with Ajax Html Element|[Ajax clear/empty Html](https://demo.jybrid.com/ajax-html.php?target=_blank)|
+|`$objResponse->remove($element);`|Removes the Element if it exists |[Ajax remove Element](https://demo.jybrid.com/ajax-html.php?target=_blank)|
+|`$objResponse->removeAll($elements);`|Remove all Elements with given querySelector |[Ajax remove all Elements](https://demo.jybrid.com/ajax-html.php?target=_blank)|
+|`$objResponse->prependHtml($parentElement, 'Text or Html-Tag');`|Inserts Text/Html at first position in parentElement|[Ajax prepend Element](https://demo.jybrid.com/ajax-html-prepend-append.php?target=_blank)|
+|`$objResponse->appendHtml($parentElement, 'Text or Html-Tag');`|Inserts Text/Html at last position in parentElement|[Ajax append Element](https://demo.jybrid.com/ajax-html-prepend-append.php?target=_blank)|
 
 
 
