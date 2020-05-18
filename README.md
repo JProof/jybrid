@@ -1,11 +1,10 @@
 Mirror-Repository for jybrid-library 
 
-jybrid examples under https://github.com/JProof/jybrid-examples
+jybrid examples under https://demo.jybrid.com/
 
 https://jybrid.com 
 
-current Version 0.7.9.3.1 released (fixing)
-0.7.9.3 Unobtrusive Ajax (released)
+current Version 2020.1.35-alpha released (fixing)
 
 javascript testings:
 
@@ -17,12 +16,6 @@ acceptance-test
 * html-prepend
 * js-defer
 * js-min-full-switch
-
-
-### Ajax Response Html Commands 
-
-[Documentation Page](https://jybrid.com/docs/ajax-response/ajax-html?target=_blank)
-
 
 ### Ajax Response Html Commands 
 
