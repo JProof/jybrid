@@ -17,6 +17,7 @@ acceptance-test
 * js-defer
 * js-min-full-switch
 
+
 ### Ajax Response Html Commands 
 
 [Documentation Page](https://jybrid.com/docs/ajax-response/ajax-html?target=_blank)
@@ -51,6 +52,7 @@ acceptance-test
 | ajax response |`$objResponse->attribAppend($element, 'value', ' +Value');`|-| - | x |appends attribute value |<https://demo.jybrid.com/schematic-ajax-attributes>|
 | ajax response |`$objResponse->attribRemove($element, 'disabled');`|-| - | x |remove attribute if exists|<https://demo.jybrid.com/schematic-ajax-attributes>|
 | ajax response |`$objResponse->attribClear($element, 'disabled');`|-| - | x |empties attribute value if exists|<https://demo.jybrid.com/schematic-ajax-attributes>|
+| ajax response |`$objResponse->setValue('myInput','my input content ');`|-| - | x |set value in input or textarea||
 
 ### Ajax javascript events during response
 
